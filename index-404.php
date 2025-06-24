@@ -63,7 +63,7 @@ header('Content-Type: text/html; charset=utf-8');
     <div class="container">
         <h1>404</h1>
         <p>Oops! Parece que você se perdeu...</p>
-        <img src="https://raw.githubusercontent.com/douglastos/pagina404/refs/heads/main/img404/404.gif" alt="404">
+        <img src="https://raw.githubusercontent.com/douglastos/docker-apache-pagina404/refs/heads/main/img/404.gif" alt="404">
         <p>A página que você está procurando não existe.</p>
         <a href="https://www.meusite.com.br">Voltar para a Página Inicial</a>
     </div>
