@@ -10,7 +10,6 @@ Este projeto cria um container Docker simples usando **Apache HTTP Server** para
 
 ---
 
-
 ## 🌐 Demonstração da Página 404
 
 O template das páginas (`index.html` e `404.html`) foi baseado no projeto:
@@ -58,15 +57,15 @@ docker container run -dit --name meu-apache-alpine -p 80:80 meu-apache
 docker container ls
 ```
 
-## 👉 Acesse a aplicação:
+## 👉 Acesse a aplicação
 
 [http://localhost](http://localhost)
 
-
 ✅ Testes básicos
-| Teste            | URL                                      | Resultado esperado   |
-| ---------------- | ---------------------------------------- | -------------------- |
-| Página principal | [http://localhost/](http://localhost/)                 | Exibe o `index.html` |
+
+| Teste           | URL                                                                 | Resultado esperado  |
+| --------------- | ------------------------------------------------------------------- | ------------------- |
+| Página principal | [http://localhost/](http://localhost/)                             | Exibe o `index.html` |
 | Página 404       | [http://localhost/rota-inexistente](http://localhost/rota-inexistente) | Exibe o `404.html`   |
 
 ## 🛠️ Tecnologias utilizadas
@@ -78,4 +77,4 @@ docker container ls
 ## 📝 Observações
 
 - Este projeto foi testado com Apache.
-- caso queira utilizar a versao com pho, só instalar o PHP e copiar os arquivos para o diretório correto.
+- caso queira utilizar a versao com php, só instalar o PHP e copiar os arquivos para o diretório correto.
