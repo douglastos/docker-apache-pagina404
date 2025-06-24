@@ -1,0 +1,80 @@
+<?php
+header('Content-Type: text/html; charset=UTF-8');
+?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Teste Sofisticada</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #6bc7a6, #b6fbff); /* Azul esverdeado */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+            backdrop-filter: blur(10px);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: 500;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #ff6f61;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 50px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #ff3f3f;
+        }
+
+        .container img {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.pngall.com/wp-content/uploads/5/Linux-Logo-PNG-Download-Image.png" alt="Logo">
+        <h1>Bem-vindo!</h1>
+        <p>Esta é uma página de teste. Caso chegou aqui seu teste deu certo!</p>
+        <a href="https://douglastos.github.io/">Conheça mais</a>
+    </div>
+</body>
+</html>

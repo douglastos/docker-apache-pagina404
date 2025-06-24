@@ -23,10 +23,17 @@ O template das páginas (`index.html` e `404.html`) foi baseado no projeto:
 
 ```bash
 ├── Dockerfile
-├── html/
-│ ├── index.html
-│ └── 404.html
-└── README.md
+├── README.md
+├── html
+│   ├── 404.html
+│   └── index.html
+├── img
+│   ├── 404.gif
+│   └── Animation.gif
+└── php
+    ├── 404.php
+    └── index.php
+
 ```
 
 ```ymal
@@ -71,4 +78,4 @@ docker container ls
 ## 📝 Observações
 
 - Este projeto foi testado com Apache.
-- Caso queira usar Nginx, será necessário adaptar a configuração de erros (o suporte a 404.html não é automático no Nginx sem configuração manual).
+- caso queira utilizar a versao com pho, só instalar o PHP e copiar os arquivos para o diretório correto.
