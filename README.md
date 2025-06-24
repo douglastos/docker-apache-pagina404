@@ -10,6 +10,8 @@ Este projeto cria um container Docker simples usando **Apache HTTP Server** para
 
 ---
 
+[[_TOC_]]
+
 ## 🌐 Demonstração da Página 404
 
 O template das páginas (`index.html` e `404.html`) foi baseado no projeto:
@@ -41,7 +43,7 @@ O template das páginas (`index.html` e `404.html`) foi baseado no projeto:
 docker build -t meu-apache . --no-cache  
 ```
 
-🚀 Como Executar o Container
+## 🚀 Como Executar o Container
 
 Exemplo mapeando a porta 80 da sua máquina para a porta 80 do container:
 
@@ -50,7 +52,7 @@ docker container run -dit --name meu-apache-alpine -p 80:80 meu-apache
 docker container ls
 ```
 
-👉 Acesse a aplicação:
+## 👉 Acesse a aplicação:
 
 [http://localhost](http://localhost)
 
@@ -61,13 +63,13 @@ docker container ls
 | Página principal | [http://localhost/](http://localhost/)                 | Exibe o `index.html` |
 | Página 404       | [http://localhost/rota-inexistente](http://localhost/rota-inexistente) | Exibe o `404.html`   |
 
-🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 - Docker
 - Apache HTTP Server (httpd:alpine)
 - HTML5 + CSS (baseado no douglastos/pagina404)
 
-📝 Observações
+## 📝 Observações
 
 - Este projeto foi testado com Apache.
 - Caso queira usar Nginx, será necessário adaptar a configuração de erros (o suporte a 404.html não é automático no Nginx sem configuração manual).
