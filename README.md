@@ -3,20 +3,19 @@
 <!-- markdownlint-disable MD041 -->
 
 <tr>
-    <td><img src="https://raw.githubusercontent.com/douglastos/docker-apache-pagina404/refs/heads/main/img/Animation.gif" width="800" /></td>
+    <td><img src="https://raw.githubusercontent.com/douglastos/docker-apache-pagina404/refs/heads/main/img/Animation.gif" width="400" /></td>
 </tr>
 
 Este projeto cria um container Docker simples usando **Apache HTTP Server** para servir uma página HTML estática personalizada, incluindo uma página de erro 404 estilizada.
 
 ---
 
-[[_TOC_]]
 
 ## 🌐 Demonstração da Página 404
 
 O template das páginas (`index.html` e `404.html`) foi baseado no projeto:
 
-👉 [douglastos/pagina404](https://github.com/douglastos/pagina404)
+👉 [douglastos/pagina404](https://github.com/douglastos/docker-apache-pagina404)
 
 ---
 
