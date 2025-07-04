@@ -14,8 +14,6 @@ Este projeto cria um container Docker simples usando **Apache HTTP Server** para
 
 O template das páginas (`index.html` e `404.html`) foi baseado no projeto:
 
-👉 [douglastos/pagina404](https://github.com/douglastos/docker-apache-pagina404)
-
 ---
 
 ## 📂 Estrutura do Projeto
